@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Show all ipv4 
+hostname -i | awk '{print $3}'
